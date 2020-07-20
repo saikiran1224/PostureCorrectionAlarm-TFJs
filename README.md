@@ -1,10 +1,7 @@
-# TF.JS CodeForCause Workshop : Posture Correction 
+# Posture Correction 
 
-A workshop project created using Tensorflow.JS, Posenet, ML5.JS, P5.JS which tracks the body posture of the user and in case the posture is wrong, then it blurs the screen of the user and also sends an alarm sound. 
+This project is mainly designed for the people who are doing Work at Home(WFH). We used to sit infront of the Computer for long times neglecting the Posture. But this leads to Severe Back Pain. By Switching on, using the help of TensorFlow.js, It automatically detects the Posture if you move left or right from the Screen and will notify you with a Warning Sound, and it Blurs the Screen.
 
-## Important Links
- **- [Youtube Tutorial](https://www.youtube.com/watch?v=Ir9FNhoPyYc&t=2s)**<br>
- **- [Slides](https://docs.google.com/presentation/d/1Lj4Y07NRRtp8lWQmwQ2xXAbW1T-vIfTRbc6oQji8RwQ/edit?usp=sharing)**
  
 ## Resources 
 - [Posenet](https://www.tensorflow.org/lite/models/pose_estimation/overview)

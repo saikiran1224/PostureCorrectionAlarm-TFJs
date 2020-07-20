@@ -5,10 +5,6 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 font-family: 'Product Sans',sans-serif;
 }
 
-#video {
-  
-
-}
 .top-buffer {
   
   padding: 1%;
@@ -35,13 +31,15 @@ font-family: 'Product Sans',sans-serif;
   height: 90px;
 }
 
+#hl {
+  display: none;
+  
+}
+
 #info {
   
   font-size: 18px;
   width: 100%;
-
-
-
 }
 
 
@@ -86,6 +84,8 @@ button:hover {
 }
 
 
+
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -98,6 +98,10 @@ button:hover {
 .fa:hover {
   opacity: 0.7;
   text-decoration: none;
+}
+
+.total {
+  text-align: center;
 }
 
 /* Set a specific color for each brand */
@@ -114,6 +118,126 @@ button:hover {
   background: #0073AF;
   color: white;
   margin: 1%;
+}
+
+#head {
+  display: inline-block;
+  text-align: center;
+}
+
+/*Phone View */
+@media (min-device-width: 320px ) and (max-device-width: 480px) {
+
+  body {
+    background-color: #fff;
+    background: #fff;
+  }
+  #vl {
+    display: none;
+  }
+
+  #dev {
+    
+    font-size: 18px;
+  }
+
+  .total {
+    text-align: center;
+    margin-top: -25px;
+  }
+
+  .tfimage {
+    width: 120px;
+    height: 20px;
+    margin-left: -45px;
+  }
+
+  #head {
+    
+    font-size: 28px;
+    text-align: center;
+    display: inline-block;
+  }
+  #dev-summary {
+     
+    margin-top: -10px;
+    flex-direction: row;
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .sub-left {
+    width: 60%;
+    padding: 1%;
+    
+  } 
+
+  .sub-right {
+    width: 30%;
+    padding: 3%;
+
+  }
+
+  .top-buffer {
+    flex-direction: column-reverse;
+    padding: 1%;
+    display: inline-flex;
+    text-align: center;
+  }
+
+  #info {
+    margin-top: -35px;
+    width: 100%;
+  }
+
+  .leftdiv {
+    width: 100%;
+    margin: 1%;
+  }
+
+  .rightdiv {
+
+    width: 100%;
+    padding: 3%;
+    margin: 1%;
+  }
+
+  footer {
+    padding: 2%;
+  }
+
+  .fa {
+  
+  width: 20%;
+  border-radius: 0;
+  text-decoration: none;
+  }
+
+  .fa-github {
+    background: #000;
+    color: white;
+    margin: 0%;
+  }
+
+  /* Twitter */
+  .fa-linkedin {
+    background: #0073AF;
+    color: white;
+    margin: 1%;
+  }
+
+  #hl {
+  
+    width: 50px;
+  }
+
+  #div-heading {
+    font-size: 23px;
+  }
+
+
 }
 
 

@@ -1,5 +1,7 @@
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Posture Correction Alarm</title>
     <link rel="icon" href="images/webcam.png" />
     <script
@@ -10,30 +12,29 @@
     <script src="https://unpkg.com/ml5@0.2.3/dist/ml5.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="video.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
 
     <div class="container p-5 mt-10" > 
-       <div class="row">
+       <div class="row total">
 
           <div class="col-lg-5 p-3">
-             <h2 style="display: inline-block;text-align: center;">Posture Correction Alarm</h2>
+             <h2  id="head">Posture Correction Alarm</h2>
+             <div id="hl"></div>
           </div>
-
+        
         <div class="col-lg-1" id="vl"></div>
           
           <div class="col-lg-6 p-2">
               <div class="container">
-                <div class="row">
-                   <div class="col-lg-6 mt-2">
-                       <h2>Developed with</h2>
+                <div class="row" id="dev-summary">
+                   <div class="col-lg-6 mt-2 sub-left">
+                       <h2 id="dev">Developed with</h2>
                    </div>
-                   <div class="col-lg-6">
-                      <img src="images/logo.png" width="300px" height="45px">
+                   <div class="col-lg-6 sub-right">
+                      <img src="images/logo.png" class="tfimage" width="300px" height="45px">
                    </div>
                 </div>
             </div> 
@@ -53,7 +54,7 @@
               </div>
            </div>
            <div class="rightdiv">
-              <h3 align="left">Welcome to Posture Correction Alarm</h3>
+              <h3 align="left"  id="div-heading">Welcome to Posture Correction Alarm</h3>
               <hr>
               <p align="left" style="text-justify:inter-word;">
                 This project is mainly designed for the people who are doing Work at Home(WFH). We used to sit infront of the Computer for long times neglecting the Posture. But this leads to Severe Back Pain. By Switching on, using the help of TensorFlow.js, It automatically detects the Posture if you move left or right from the Screen and will notify you with a Warning Sound, and it Blurs the Screen.

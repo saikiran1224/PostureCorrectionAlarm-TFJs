@@ -39,8 +39,8 @@ font-family: 'Product Sans',sans-serif;
   
   font-size: 18px;
   width: 100%;
-  margin-left: 2%;
-  margin-right: 2%;
+
+
 
 }
 
@@ -97,6 +97,7 @@ button:hover {
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+  text-decoration: none;
 }
 
 /* Set a specific color for each brand */

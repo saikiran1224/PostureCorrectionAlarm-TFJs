@@ -9,7 +9,7 @@ var audio = document.getElementById("audioElement");
 // p5.js setup() function to set up the canvas for the web cam video stream
 function setup() {
   //creating a canvas by giving the dimensions
-  const canvas = createCanvas(600, 450);
+  const canvas = createCanvas(400, 450);
   canvas.parent("video");
 
   videofeed = createCapture(VIDEO);

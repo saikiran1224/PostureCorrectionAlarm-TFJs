@@ -2,6 +2,8 @@
 
 This project is mainly designed for the people who are doing Work at Home(WFH). We used to sit infront of the Computer for long times neglecting the Posture. But this leads to Severe Back Pain. By Switching on, using the help of TensorFlow.js, It automatically detects the Posture if you move left or right from the Screen and will notify you with a Warning Sound, and it Blurs the Screen.
 
+This project is mainly used for Software Engineers and for people who are sitting more time infront of the Desktop/Laptop.
+
 ---
  
 ## Resources 

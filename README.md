@@ -9,5 +9,5 @@ This project is mainly designed for the people who are doing Work at Home(WFH). 
 - [TF.JS Github](https://github.com/tensorflow/tfjs)
 - [TF.JS Website](https://www.tensorflow.org/js)
 - [ML5.JS](https://ml5js.org/)
- 
+- [DSC-GMRIT](https://dscgmrit.org)
  ---
